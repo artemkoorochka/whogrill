@@ -1,0 +1,1 @@
+include areas with phones or module settings
