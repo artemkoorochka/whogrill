@@ -35,3 +35,19 @@ Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/assets/js/whogrill.js")
 
     ]);?>
 
+
+    <?$APPLICATION->IncludeComponent("bitrix:search.form", "", [
+
+    ]);?>
+    <?$APPLICATION->IncludeComponent("whogrill:pre.order.line", "", [
+
+    ]);?>
+    <?$APPLICATION->IncludeComponent("bitrix:sale.basket.basket.line", "", [
+
+    ]);?>
+
+    <?$APPLICATION->IncludeComponent("bitrix:menu", "", [
+
+    ]);?>
+
+
